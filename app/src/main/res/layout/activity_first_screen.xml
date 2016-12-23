@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/app_caption"
+        android:layout_above="@+id/list"
+        android:id="@+id/caption"
+        android:textColor="#ff0a0a0a"
+        android:textStyle="italic"
+        android:typeface="sans"
+        android:editable="false"
+        android:textAlignment="center" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"/>
+    <!--android:id="@android:id/list"-->
+
+</LinearLayout>

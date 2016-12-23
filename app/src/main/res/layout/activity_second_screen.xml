@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/gradient_bg_hover">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeTitle"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+    <!--android:layout_alignWithParentIfMissing="false"-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:background="@android:color/transparent"
+        android:id="@+id/previous"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:background="@android:color/transparent"
+        android:id="@+id/next"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/welcomeTitle"
+        android:src="@drawable/herbs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+
+    <TextSwitcher
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipsDisplaySection"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="77dp"
+        android:layout_alignRight="@+id/next"
+        android:layout_alignEnd="@+id/next"
+        android:layout_above="@+id/previous"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="14dp"
+        android:textStyle="italic"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shareIcon"
+        android:src="@drawable/ic_social_share"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/imageView" />
+
+    <!--android:fontFamily="sans-serif-condensed"
+    android:textAppearance="@color/material_blue_grey_800"-->
+</RelativeLayout>

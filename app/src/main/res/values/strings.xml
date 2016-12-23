@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BeautifulU</string>
+    <string name="action_settings">Settings</string>
+    <string name="changeimage">Change Image</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="social_share">Share</string>
+    <string name="title_sec_screen">Tips for </string>
+    <string name="app_caption">Look better..Feel better..You deserve it !</string>
+
+    <string name="text1">Take 2 tbsp of olive oil mix it with 2 egg whites. Apply this mask to your hair.Rinse off with water after 3 hrs. Hair turns silky smooth!</string>
+    <string name="text2">Turmeric helps reduces growth of facial hair.</string>
+    <string name="text3">Henna leaves acts as natural conditioner for hair and also as natural colouring agent.</string>
+    <string name="text4">Mix 1tbsp of sandalwood powder with 2tbsp of rose water. Apply to face and rinse after an hour for smooth skin.</string>
+    <string name="text5">Remove Tan : Mix 1 tbsp Besan powder with 2tbsp of curd , Apply to face and wash after 15 min.</string>
+
+    <string-array name="health">
+        <item>@string/text1</item>
+        <item>@string/text2</item>
+        <item>@string/text3</item>
+    </string-array>
+    <string-array name="fitness">
+        <item>@string/text1</item>
+        <item>@string/text2</item>
+    </string-array>
+    <string-array name="haircare">
+        <item>@string/text4</item>
+        <item>@string/text5</item>
+    </string-array>
+    <string-array name="skincare">
+        <item>@string/text4</item>
+        <item>@string/text2</item>
+    </string-array>
+    <string-array name="homeremediees">
+        <item>@string/text4</item>
+        <item>@string/text5</item>
+    </string-array>
+    <string-array name="tips">
+        <item>@string/text1</item>
+        <item>@string/text5</item>
+    </string-array>
+</resources>
